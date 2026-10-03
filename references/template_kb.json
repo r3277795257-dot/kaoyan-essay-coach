@@ -1,0 +1,652 @@
+[
+ {
+  "id": "T01",
+  "library": "英语一大作文(图画)",
+  "function": "开头",
+  "main": "The cartoon presents a thought-provoking scene in which ___, with ___.",
+  "bak1": "As is symbolically revealed in the illustration, ___ strikes every viewer.",
+  "bak2": "What emerges from the drawing is a common phenomenon: ___.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "高",
+   "中",
+   "高"
+  ],
+  "source": "S1 / S9 / S27",
+  "usage_count": 0
+ },
+ {
+  "id": "T02",
+  "library": "英语一大作文(图画)",
+  "function": "过渡",
+  "main": "Simple as the picture seems, its implication goes far deeper than visual pleasure.",
+  "bak1": "Obviously, the drawing conveys a message that deserves our careful consideration.",
+  "bak2": "The picture may seem ridiculous at first, yet it mirrors a reality we can no longer ignore.",
+  "overused": [
+   "低",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "中",
+   "中",
+   "高"
+  ],
+  "source": "S7,S32 / S27,S16 / 改写自S7",
+  "usage_count": 0
+ },
+ {
+  "id": "T03",
+  "library": "英语一大作文(图画)",
+  "function": "原因",
+  "main": "Several factors can account for this tendency, and the following two deserve most attention.",
+  "bak1": "The phenomenon largely stems from ___; equally important is ___.",
+  "bak2": "Two primary reasons underlie this trend. For one thing, ___. For another, ___.",
+  "overused": [
+   "中",
+   "低",
+   "中"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "中"
+  ],
+  "source": "S18,S1 / S18改写 / S24,S23",
+  "usage_count": 0
+ },
+ {
+  "id": "T04",
+  "library": "英语一大作文(图画)",
+  "function": "举例",
+  "main": "A case in point is ___, which clearly demonstrates ___.",
+  "bak1": "Take ___ as a typical example: ___.",
+  "bak2": "This is best illustrated by ___.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "通用 / 通用 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T05",
+  "library": "英语一大作文(图画)",
+  "function": "影响",
+  "main": "If left unaddressed, this tendency may exert a lasting negative impact on ___.",
+  "bak1": "Such a trend, if properly guided, can bring far-reaching benefits to ___.",
+  "bak2": "It will definitely generate a variety of positive effects, especially on ___.",
+  "overused": [
+   "低",
+   "低",
+   "高"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "低"
+  ],
+  "source": "改写 / 改写 / S16原句",
+  "usage_count": 0
+ },
+ {
+  "id": "T06",
+  "library": "英语一大作文(图画)",
+  "function": "建议",
+  "main": "To reverse this trend, I suggest that ___, and more importantly, ___.",
+  "bak1": "It is high time that we took effective measures to ___.",
+  "bak2": "Relevant authorities are expected to ___, while the public should raise awareness of ___.",
+  "overused": [
+   "低",
+   "高",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "中",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "低",
+   "高"
+  ],
+  "source": "改写自S7 / S31,S16 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T07",
+  "library": "英语一大作文(图画)",
+  "function": "结尾",
+  "main": "Only in this way can we ___ and embrace a ___ future.",
+  "bak1": "Taking all these factors into account, we may safely draw the conclusion that ___.",
+  "bak2": "Looking ahead, ___ will remain a topic worth our sustained attention.",
+  "overused": [
+   "中",
+   "高",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "中",
+   "中"
+  ],
+  "personalizable": [
+   "中",
+   "低",
+   "高"
+  ],
+  "source": "S29,S7 / S29,S12 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T08",
+  "library": "英语二大作文(图表)",
+  "function": "开头",
+  "main": "As the chart clearly demonstrates, ___ underwent a striking change from ___ to ___.",
+  "bak1": "The figures in the ___ chart reveal a distinct trend concerning ___.",
+  "bak2": "What stands out most is that ___, accounting for ___%.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "S10,S26 / S30 / S25",
+  "usage_count": 0
+ },
+ {
+  "id": "T09",
+  "library": "英语二大作文(图表)",
+  "function": "过渡",
+  "main": "The statistics, though seemingly straightforward, point to deeper social and economic causes.",
+  "bak1": "Three reasons can account for this trend, as analyzed below.",
+  "bak2": "Such striking changes seldom occur by accident.",
+  "overused": [
+   "低",
+   "高",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "中",
+   "中"
+  ],
+  "personalizable": [
+   "中",
+   "低",
+   "中"
+  ],
+  "source": "改写自S18 / S8 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T10",
+  "library": "英语二大作文(图表)",
+  "function": "原因",
+  "main": "First and foremost, this trend is closely related to ___. Besides, ___ also plays a supporting role.",
+  "bak1": "On the one hand, ___. On the other hand, ___.",
+  "bak2": "The improvement of ___ has gradually driven this change.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "S18,S8 / S26,S24 / S26原句",
+  "usage_count": 0
+ },
+ {
+  "id": "T11",
+  "library": "英语二大作文(图表)",
+  "function": "举例(数据)",
+  "main": "To be specific, the proportion of ___ jumped from ___% to ___% within only a few years.",
+  "bak1": "By contrast, ___ remained the least popular, at merely ___%.",
+  "bak2": "A closer look at the numbers reveals that ___.",
+  "overused": [
+   "中",
+   "低",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "S26 / S25 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T12",
+  "library": "英语二大作文(图表)",
+  "function": "影响",
+  "main": "This shift reflects ___ and will likely continue in the years ahead.",
+  "bak1": "Such changes may exert a profound influence on ___.",
+  "bak2": "If this trend continues, ___.",
+  "overused": [
+   "低",
+   "中",
+   "中"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "中",
+   "高"
+  ],
+  "source": "改写 / 通用 / 通用",
+  "usage_count": 0
+ },
+ {
+  "id": "T13",
+  "library": "英语二大作文(图表)",
+  "function": "建议",
+  "main": "Considering the analysis above, it is advisable for ___ to ___.",
+  "bak1": "Based on the data, we should attach greater importance to ___.",
+  "bak2": "There is still ample room for ___ to improve in this regard.",
+  "overused": [
+   "低",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "中",
+   "中"
+  ],
+  "personalizable": [
+   "高",
+   "中",
+   "高"
+  ],
+  "source": "改写 / S31 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T14",
+  "library": "英语二大作文(图表)",
+  "function": "结尾",
+  "main": "In conclusion, the chart indicates not only ___ but also ___, and ___.",
+  "bak1": "To sum up, this trend is bound to persist and deserves further attention.",
+  "bak2": "Overall, the data point to a ___ tendency that we should respond to wisely.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "中",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "中",
+   "高"
+  ],
+  "source": "S12 / S29 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T15",
+  "library": "小作文书信(英一/二)",
+  "function": "开头",
+  "main": "I am writing to ___ (express gratitude / convey apology / make a suggestion).",
+  "bak1": "I, as ___(身份)___, am writing this letter to ___.",
+  "bak2": "This letter is intended to ___.",
+  "overused": [
+   "中",
+   "低",
+   "中"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "中"
+  ],
+  "source": "S15,S22,S21 / 改写 / S11",
+  "usage_count": 0
+ },
+ {
+  "id": "T16",
+  "library": "小作文书信(英一/二)",
+  "function": "过渡",
+  "main": "The details are as follows.",
+  "bak1": "I would like to offer some specifics concerning this matter.",
+  "bak2": "Several factors make this necessary, and I will explain them briefly.",
+  "overused": [
+   "中",
+   "低",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "低",
+   "中",
+   "高"
+  ],
+  "source": "豆丁英二讲义 / 改写 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T17",
+  "library": "小作文书信(英一/二)",
+  "function": "原因",
+  "main": "The main reason is that ___, which I believe you will understand.",
+  "bak1": "Without your ___, I could not have ___.",
+  "bak2": "It is precisely because ___ that I ___.",
+  "overused": [
+   "低",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "改写 / S15 / S32强调句",
+  "usage_count": 0
+ },
+ {
+  "id": "T18",
+  "library": "小作文书信(英一/二)",
+  "function": "举例",
+  "main": "For instance, ___.",
+  "bak1": "A particularly impressive moment was when ___.",
+  "bak2": "To give you a specific example, ___.",
+  "overused": [
+   "中",
+   "低",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "S31 / 改写 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T19",
+  "library": "小作文书信(英一/二)",
+  "function": "影响",
+  "main": "Your kindness has meant a great deal to me, especially ___.",
+  "bak1": "I believe this will ___.",
+  "bak2": "Should this request be granted, it would ___.",
+  "overused": [
+   "中",
+   "低",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "S22原句 / 改写 / S32虚拟语气",
+  "usage_count": 0
+ },
+ {
+  "id": "T20",
+  "library": "小作文书信(英一/二)",
+  "function": "建议/请求",
+  "main": "I would greatly appreciate it if you could ___.",
+  "bak1": "I hope you will take my request into favorable consideration.",
+  "bak2": "Would it be possible to ___? Thank you for your time.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "中",
+   "高"
+  ],
+  "source": "S21 / S15 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T21",
+  "library": "小作文书信(英一/二)",
+  "function": "结尾",
+  "main": "Thank you for your time and consideration. I look forward to your reply.",
+  "bak1": "I would be grateful if you could reply at your earliest convenience.",
+  "bak2": "Please feel free to contact me should you need further information.",
+  "overused": [
+   "高",
+   "中",
+   "中"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "低",
+   "中",
+   "中"
+  ],
+  "source": "S28 / 改写 / S28",
+  "usage_count": 0
+ },
+ {
+  "id": "T22",
+  "library": "小作文通知/告示",
+  "function": "开头目的",
+  "main": "This notice is to inform everyone that ___ will be held.",
+  "bak1": "A ___ is to be organized, and the details are as follows.",
+  "bak2": "In order to ___, the ___ has decided to ___.",
+  "overused": [
+   "中",
+   "低",
+   "中"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "S22,S13 / 改写 / 通用",
+  "usage_count": 0
+ },
+ {
+  "id": "T23",
+  "library": "小作文通知/告示",
+  "function": "细节展开",
+  "main": "It will take place at ___ on ___, from ___ to ___.",
+  "bak1": "Those interested are required to ___ before ___.",
+  "bak2": "The activity will cover ___ and ___.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "S14 / S14 / S14改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T24",
+  "library": "小作文通知/告示",
+  "function": "原因/说明",
+  "main": "This event aims to ___.",
+  "bak1": "All participants are expected to ___.",
+  "bak2": "The activity is open to ___ free of charge.",
+  "overused": [
+   "低",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "高",
+   "高",
+   "高"
+  ],
+  "source": "改写 / S14 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T25",
+  "library": "小作文通知/告示",
+  "function": "号召",
+  "main": "We sincerely welcome your active participation.",
+  "bak1": "For further information, please contact ___.",
+  "bak2": "Your involvement will surely make a difference.",
+  "overused": [
+   "中",
+   "中",
+   "低"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "中"
+  ],
+  "personalizable": [
+   "低",
+   "中",
+   "中"
+  ],
+  "source": "通用 / 通用 / 改写",
+  "usage_count": 0
+ },
+ {
+  "id": "T26",
+  "library": "小作文通知/告示",
+  "function": "结尾落款",
+  "main": "___(组织方，如 The Students' Union)___",
+  "bak1": "___(组织方)___ , ___(日期靠右)___",
+  "bak2": "Notice / Volunteers Wanted (标题居中)",
+  "overused": [
+   "中",
+   "中",
+   "中"
+  ],
+  "safety": [
+   "高",
+   "高",
+   "高"
+  ],
+  "personalizable": [
+   "低",
+   "低",
+   "低"
+  ],
+  "source": "S13,S14 / S13 / S13格式",
+  "usage_count": 0
+ }
+]

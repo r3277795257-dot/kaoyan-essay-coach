@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考研作文批改报告</title>
+<style>
+  body{margin:0;padding:0;background:#f6f8f9;color:#1f2937;font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;line-height:1.75;}
+  .wrap{max-width:920px;margin:0 auto;padding:24px 26px 60px;}
+  h1{font-size:22px;color:#0f766e;border-left:6px solid #0f766e;padding:4px 0 4px 14px;margin:0 0 4px;}
+  .meta{font-size:12px;color:#6b7280;margin-bottom:16px;}
+  h2{font-size:16px;color:#0f766e;background:#ecfdf5;border-left:4px solid #0f766e;padding:6px 12px;margin:24px 0 10px;border-radius:0 6px 6px 0;}
+  .card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;margin-bottom:12px;}
+  .band{display:inline-block;padding:3px 12px;border-radius:6px;font-weight:700;font-size:14px;}
+  .b1{background:#dcfce7;color:#166534;} .b2{background:#d1fae5;color:#065f46;}
+  .b3{background:#fef9c3;color:#854d0e;} .b4{background:#ffedd5;color:#9a3412;}
+  .b5{background:#fee2e2;color:#991b1b;} .b0{background:#e5e7eb;color:#374151;}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0;}
+  th{background:#f3f4f6;border:1px solid #e5e7eb;padding:6px 8px;text-align:left;}
+  td{border:1px solid #e5e7eb;padding:6px 8px;vertical-align:top;}
+  .orig{color:#b91c1c;} .fix{color:#047857;} .kp{color:#0e7490;font-size:12px;}
+  .en{font-family:Consolas,monospace;background:#ecfeff;border:1px solid #a5f3fc;border-radius:4px;padding:0 4px;font-size:12.5px;color:#0e7490;}
+  .two{display:flex;gap:12px;flex-wrap:wrap;}
+  .two .col{flex:1;min-width:280px;background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;}
+  .disc{background:#fefce8;border:1.5px dashed #ca8a04;border-radius:10px;padding:12px 16px;font-size:12.5px;color:#422006;margin:16px 0;}
+  .ok{color:#047857;} .warn{color:#b45309;} .bad{color:#b91c1c;}
+  /* 逐句批改对照卡（方案1：前后对照） */
+  .cmp{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;margin-bottom:10px;}
+  .cmp-orig{background:#fef2f2;border-radius:6px;padding:8px 10px;font-size:13.5px;margin-bottom:4px;}
+  .cmp-orig .lbl{font-size:11px;color:#b91c1c;font-weight:700;}
+  .cmp-arrow{text-align:center;color:#0f766e;line-height:1;margin:2px 0;}
+  .cmp-fix{background:#f0fdf4;border-radius:6px;padding:8px 10px;font-size:13.5px;margin-bottom:6px;}
+  .cmp-fix .lbl{font-size:11px;color:#047857;font-weight:700;}
+  .cmp-legend{font-size:12px;color:#374151;background:#f8fafc;border-radius:6px;padding:6px 10px;}
+  .cmp-legend b{color:#0e7490;}
+  .err{background:#fecaca;color:#7f1d1d;padding:0 3px;border-radius:3px;}
+  .good{background:#bbf7d0;color:#14532d;padding:0 3px;border-radius:3px;}
+  .num{vertical-align:super;font-size:10px;color:#dc2626;font-weight:700;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>考研英语作文批改报告</h1>
+<div class="meta">考试类型：__ ｜ 作文类型：__ ｜ 批改日期：__ ｜ 批改序号：__ ｜ 依据：公开考试大纲（模拟评分，非官方）</div>
+
+<!-- 1 总评 -->
+<h2>1. 总评</h2>
+<div class="card">
+  分数：<b>__/__</b> ｜ 档位：<span class="band b__">第__档（__-__分）</span> ｜ 10分制综合分：__/10 ｜ 置信度：__
+  <br>一句话结论：__
+</div>
+
+<!-- 2 地区校准 -->
+<h2>2. 地区校准（只提示，不调分）</h2>
+<div class="card">
+  全国基准：__/__（第__档偏__）<br>
+  地区参考（目标院校所在省：__）：__（约 1 档位以内偏__）<br>
+  依据与置信度：__ ｜ 数据状态：__
+</div>
+
+<!-- 3 历史对比 -->
+<h2>3. 历史对比</h2>
+<div class="card">上次错误 __ 次 → 本次 __ 次（改善/恶化）；已掌握：__；新出现：__；模板句使用：__</div>
+
+<!-- 4 题目要点核对 -->
+<h2>4. 题目要点核对</h2>
+<div class="card">
+  <table>
+    <tr><th>要点</th><th>状态</th><th>证据</th></tr>
+    <tr><td>要点1</td><td class="ok">已覆盖 / 部分覆盖 / 未覆盖</td><td>__</td></tr>
+    <tr><td>格式</td><td>正确 / 有小错 / 错误</td><td>__</td></tr>
+    <tr><td>字数</td><td>小作文：合规 / 不足（超字不扣分）｜大作文：合规 / 不足 / 超字（仅提示）</td><td>__</td></tr>
+    <tr><td>跑题风险</td><td>低 / 中 / 高</td><td>__</td></tr>
+  </table>
+</div>
+
+<!-- 5 逐句批改（方案1：前后对照卡。每句一张卡：原句红标错误→↓→纠正绿标→图例） -->
+<h2>5. 逐句批改（前后对照卡）</h2>
+<div style="font-size:12px;color:#6b7280;margin-bottom:10px;">红色底=原句错误位置 ｜ 绿色底=纠正后对应位置 ｜ 上标数字=错误编号 ｜ 每张卡下方图例说明"错在哪、知识点"</div>
+
+<!-- 卡N：复制此结构，每句一张 -->
+<div class="cmp">
+  <div class="cmp-orig"><span class="lbl">原句 N</span><br>
+    <span class="err">错误词1</span> 例句 <span class="err">错误词2</span> <span class="num">①②</span>
+  </div>
+  <div class="cmp-arrow">↓</div>
+  <div class="cmp-fix"><span class="lbl">纠正</span><br>
+    <span class="good">纠正后表达1</span> 例句 <span class="good">纠正后表达2</span>
+  </div>
+  <div class="cmp-legend"><b>图例</b>　<span style="color:#dc2626;font-weight:700;">①</span> 错误说明 + 知识点　<span style="color:#dc2626;font-weight:700;">②</span> 错误说明 + 知识点
+  </div>
+</div>
+<!-- 更多卡…… -->
+
+<!-- 6 语法知识点 -->
+<h2>6. 语法知识点</h2>
+<div class="card">① 知识点：__（先讲规则）<br>② 错误示例：__ → 正确示例：__</div>
+
+<!-- 7 词汇升级 -->
+<h2>7. 词汇升级</h2>
+<div class="card"><table><tr><th>基础词</th><th>考研高分词</th><th>搭配</th></tr><tr><td>__</td><td>__</td><td>__</td></tr></table></div>
+
+<!-- 8 逻辑结构 -->
+<h2>8. 逻辑结构</h2>
+<div class="card">段落功能：__ ｜ 衔接：__ ｜ 连贯：__ ｜ 指代：__</div>
+
+<!-- 9 母语者表达 -->
+<h2>9. 母语者表达</h2>
+<div class="card">
+  <table>
+    <tr><th>原句</th><th>母语者版</th><th>考研安全版</th></tr>
+    <tr><td class="orig">__</td><td>__</td><td class="fix">__（建议考试使用）</td></tr>
+  </table>
+</div>
+
+<!-- 10 完善后文章 -->
+<h2>10. 完善后文章</h2>
+<div class="two">
+  <div class="col"><b>保守提分版</b><br><span class="en">__</span></div>
+  <div class="col"><b>母语优化版（供学习参考）</b><br><span class="en">__</span></div>
+</div>
+
+<!-- 11 个人模板更新 -->
+<h2>11. 个人模板更新</h2>
+<div class="card">本次可入库句子：<span class="en">__</span>（功能位：__，槽位：__，已去重）</div>
+
+<!-- 12 下一步练习 -->
+<h2>12. 下一步练习</h2>
+<div class="card">本周重点（针对最弱项）：__</div>
+
+<!-- 13 学习档案卡 -->
+<h2>13. 学习档案卡（可复制续接）</h2>
+<div class="card">【学习档案卡 v__】<br>考试类型：__ ｜ 目标分：__ ｜ 目标院校所在省：__ ｜ 考试年份：__<br>近3次 均分/档位：__<br>高频错误 Top5：1.__ 2.__ 3.__ 4.__ 5.__<br>已掌握：__ ｜ 个人模板已用：__ ｜ 偏好：__ ｜ 地区校准偏好：__</div>
+
+<!-- 免责声明 -->
+<div class="disc">
+<b>【说明】</b><br>
+1. 本助手提供的作文档位、分数与修改建议，是 AI 依据公开大纲做的<b>模拟评分，仅供练习参考，不构成、也不替代官方阅卷判断</b>，正式分数以考试为准。<br>
+2. 文中"水区/旱区/评分偏松偏紧"均为<b>考研圈民间考生经验汇总，非教育部教育考试院或各省考试院的官方评分标准</b>，官方从未正式划分"水旱区"。<br>
+3. 地区信息<b>仅作约一个档位的区间参考，绝不会据此上调或下调你的全国基准档位</b>；若你报考的省份样本不足或说法不一，我们会直接提示"当前无法验证"，而不强行给出倾向。<br>
+4. 你的作文中的姓名、学校、考号、联系方式等已自动脱敏，不会写入学习档案。<br>
+5. 你据此作出的备考、估分、志愿、调剂等决策由本人自行判断并承担相应后果。
+</div>
+
+</div>
+</body>
+</html>
